@@ -1,0 +1,21 @@
+---
+title: README drbl-server-notes
+---
+
+#drbl-server-notes
+
+##README
+
+* Best to try out several branches from the repo (stable, testing). 
+* If possible, don't upgrade. Documentation isn't up to date.
+* From what I can tell testing of edge cases is minimal. 
+* Better to not mix with other services, use a separate machine/image.
+
+* Do a reboot of MS Windows machines before a clone.
+* Disable hybrid sleep/fastboot/fast startup. 
+  1. Better compatibility with Linux distros in dualboot scenarios. 
+  2. Reduces Windows problems resulting from not being rebooted properly or often enough.
+
+```
+powercfg /hibernate off
+```

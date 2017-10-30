@@ -1,0 +1,13 @@
+
+#gpg --keyserver subkeys.pgp.net --recv-key D7E8DF3A
+#gpg -a --export D7E8DF3A | apt-key add -
+
+wget -q http://drbl.org/GPG-KEY-DRBL -O- | apt-key add -
+echo '#DRBL' >> /etc/apt/sources.list.d/drbl.list
+echo 'deb http://free.nchc.org.tw/drbl-core drbl testing' >> /etc/apt/sources.list.d/drbl.list
+aptitude update
+
+#aptitude install mkswap-uuid drbl-chntpw mkpxeinitrd-net freedos
+
+#mv /etc/apt/sources.list.d/drbl.list /etc/apt/sources.list.d/drbl.list.bak
+#aptitude update

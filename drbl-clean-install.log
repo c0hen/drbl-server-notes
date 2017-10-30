@@ -1,0 +1,99 @@
+
+insserv: warning: script 'K01firstboot' missing LSB tags and overrides                                                                                                               [51/7863]
+insserv: warning: script 'firstboot' missing LSB tags and overrides                                                                                                                           
+Enabling service sendsigs...                                                                                                                                                                  
+Skip ...                                                                                                                                                                                      
+Running: chroot /tftpboot/node_root /usr/sbin/update-rc.d sendsigs defaults                                                                                                                   
+insserv: warning: script 'K01firstboot' missing LSB tags and overrides                                                                                                                        
+insserv: warning: script 'firstboot' missing LSB tags and overrides                                                                                                                           
+Running: chroot /tftpboot/node_root /usr/sbin/update-rc.d sendsigs enable                                                                                                                     
+update-rc.d: error: sendsigs Default-Start contains no runlevels, aborting.                                                                                                                   
+Enabling service umountfs...                                                                                                                                                                  
+Skip ...                                                                                                                                                                                      
+Running: chroot /tftpboot/node_root /usr/sbin/update-rc.d umountfs defaults                                                                                                                   
+insserv: warning: script 'K01firstboot' missing LSB tags and overrides                                                                                                                        
+insserv: warning: script 'firstboot' missing LSB tags and overrides                                                                                                                           
+Running: chroot /tftpboot/node_root /usr/sbin/update-rc.d umountfs enable                                                                                                                     
+update-rc.d: error: umountfs Default-Start contains no runlevels, aborting.                                                                                                                   
+Using udev for clients... The default display manager is NOT found! We can NOT set text or graphic mode for Debian DRBL client.                                                               
+Unescaped left brace in regex is deprecated, passed through in regex; marked by <-- HERE in m/^([[:space:]]*rm -f \${ <-- HERE MTAB_PATH}~.*)/ at -e line 1.                                  
+Deleting the accounts (except root) in the clients common root template... done!                                                                                                              
+Enabling the NIS client in the common root template... done!                                                                                                                                  
+Creating some necessary files in the clients common root template...... done!                                                                                                                 
+Creating DRBL client: drbl-172-31-0-100 172.31.0.100... Generating SSH host keys for client 172.31.0.100 if they do not exist... RSA1 key generation failed!                                  
+No display manager was found!                                                                                                                                                                 
+Skip changing client's login mode of graphical interface.                                                                                                                                     
+Creating DRBL client: drbl-172-31-0-101 172.31.0.101... Pseudo client is created for DRBL SSI or clonezilla box mode! done!                                                                   
+Creating DRBL client: drbl-172-31-0-102 172.31.0.102... Pseudo client is created for DRBL SSI or clonezilla box mode! done!                                                                   
+Creating DRBL client: drbl-172-31-0-103 172.31.0.103... Pseudo client is created for DRBL SSI or clonezilla box mode! done!                                                                   
+Creating DRBL client: drbl-172-31-0-104 172.31.0.104... Pseudo client is created for DRBL SSI or clonezilla box mode! done!                                                                   
+Creating DRBL client: drbl-172-31-0-105 172.31.0.105... Pseudo client is created for DRBL SSI or clonezilla box mode! done!                                                                   
+Creating DRBL client: drbl-172-31-0-106 172.31.0.106... Pseudo client is created for DRBL SSI or clonezilla box mode! done!                                                                   
+Creating DRBL client: drbl-172-31-0-107 172.31.0.107... Pseudo client is created for DRBL SSI or clonezilla box mode! done!                                                                   
+Creating DRBL client: drbl-172-31-0-108 172.31.0.108... Pseudo client is created for DRBL SSI or clonezilla box mode! done!                                                                   
+Creating DRBL client: drbl-172-31-0-109 172.31.0.109... Pseudo client is created for DRBL SSI or clonezilla box mode! done!                                                                   
+Creating DRBL client: drbl-172-31-0-110 172.31.0.110... Pseudo client is created for DRBL SSI or clonezilla box mode! done!                                                                   
+Creating DRBL client: drbl-172-31-0-111 172.31.0.111... Pseudo client is created for DRBL SSI or clonezilla box mode! done!                                                                   
+Creating DRBL client: drbl-172-31-0-112 172.31.0.112... Pseudo client is created for DRBL SSI or clonezilla box mode! done!                                                                   
+Creating DRBL client: drbl-172-31-0-113 172.31.0.113... Pseudo client is created for DRBL SSI or clonezilla box mode! done!                                                                   
+Creating DRBL client: drbl-172-31-0-114 172.31.0.114... Pseudo client is created for DRBL SSI or clonezilla box mode! done!                                                                   
+Creating DRBL client: drbl-172-31-0-115 172.31.0.115... Pseudo client is created for DRBL SSI or clonezilla box mode! done!                                                                   
+Creating DRBL client: drbl-172-31-0-116 172.31.0.116... Pseudo client is created for DRBL SSI or clonezilla box mode! done!                                                                   
+Creating DRBL client: drbl-172-31-0-117 172.31.0.117... Pseudo client is created for DRBL SSI or clonezilla box mode! done!                                                                   
+Creating DRBL client: drbl-172-31-0-118 172.31.0.118... Pseudo client is created for DRBL SSI or clonezilla box mode! done!                                                                   
+Creating DRBL client: drbl-172-31-0-119 172.31.0.119... Pseudo client is created for DRBL SSI or clonezilla box mode! done!                                                                   
+Creating DRBL client: drbl-172-31-0-120 172.31.0.120... Pseudo client is created for DRBL SSI or clonezilla box mode! done!                                                                   
+Creating DRBL client: drbl-172-31-0-121 172.31.0.121... Pseudo client is created for DRBL SSI or clonezilla box mode! done!                                                                   
+Creating DRBL client: drbl-172-31-0-122 172.31.0.122... Pseudo client is created for DRBL SSI or clonezilla box mode! done!                                                                   
+Creating DRBL client: drbl-172-31-0-123 172.31.0.123... Pseudo client is created for DRBL SSI or clonezilla box mode! done!                                                                   
+Creating DRBL client: drbl-172-31-0-124 172.31.0.124... Pseudo client is created for DRBL SSI or clonezilla box mode! done!                                                                   
+Creating DRBL client: drbl-172-31-0-125 172.31.0.125... Pseudo client is created for DRBL SSI or clonezilla box mode! done! 
+
+
+
+Template client for DRBL SSI, Clonezilla box mode or Clonezilla live client is 172.31.0.100
+Using template host /tftpboot/nodes/172.31.0.100
+Generating SSH host keys for client 172.31.0.100 if they do not exist... RSA1 key generation failed!
+Generating the files for DRBL single system image template... root... etc... var... Root's openssh public key... done!
+Modifying option diskless_client_os in drbl-ocs.conf...
+Disable the password in pxelinux simple menu for all clients...
+Disabling PXE password in config file /tftpboot/nbi_img/pxelinux.cfg/default...
+done!
+Now add necessary services to this DRBL server: DHCP, TFTP, NFS, NIS...
+Generating the NFS exports for DRBL clients...
+Backup the original /etc/exports as /etc/exports.drblsave
+Exporting to clients by IP address line-by-line...
+The /etc/exports setting is ok now!
+This DRBL server does NOT provide NAT service, so your DRBL client will NOT be able to access the Internet.
+Now stop the NAT service...
+Flushing firewall rules: success
+Now set the YP securenets...
+Backup the original /etc/ypserv.securenets as /etc/ypserv.securenets.drblsave
+The /etc/ypserv.securenets setting is done!
+Created symlink /etc/systemd/system/drbl-clients-nat.service -> /lib/systemd/system/drbl-clients-nat.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/drbl-clients-nat.service -> /lib/systemd/system/drbl-clients-nat.service.
+Update YP...
+///NOTE/// You chose not to add and start DRBL-related services in the DRBL server. Remember to run 'drbl-all-service start' if you want to start DRBL-related services.
+The GDM or KDM config file is NOT found! Skip setting the DM! Maybe you will not be able to make this DRBL server as thin client server!
+Clean all the previous saved config file if they exist...done!
+Turn on the boot prompt for PXE client...No revealed label memtest was found! Skip it.
+done!
+Turn off the thin client option in PXE boot menu...done!
+Modifying /tftpboot/nbi_img/pxelinux.cfg/default to let DRBL client use text PXE boot menu... done!
+DRBL SSI mode. Set clientdir opt for label drbl in pxelinux config...
+Setting drbl_mode="drbl_ssi_mode" in /etc/drbl/drbl_deploy.conf and /etc/drbl/drblpush.conf... done!
+Clonezilla box mode. Set clientdir opt for label clonezilla in pxelinux config...
+Setting clonezilla_mode="clonezilla_box_mode" in /etc/drbl/drbl_deploy.conf and /etc/drbl/drblpush.conf... done!
+You have to use "dcs" -> clonezilla-start to start Clonezilla service, so that there will be a Clonezilla menu when client boots
+No hidden label Clonezilla-live was found! Skip it.
+No hidden menuentry with ID clonezilla-live-client found! Skip it.
+Some files are found in /usr/share/drbl//postrun/drbl/. Run them now...
+The number of running NFS services in this DRBL number (9) is not enough for clients, 65 nsfd is expected! The performance will NOT be good! Check the NFS setting in /etc/sysconfig/ or /etc/default/!!!
+*****************************************************.
+Enjoy DRBL!!!
+http://drbl.org; http://drbl.nchc.org.tw
+NCHC Free Software Labs, Taiwan. http://free.nchc.org.tw
+*****************************************************.
+If you like, you can reboot the DRBL server now to make sure everything is ready...(This is not necessary, just an option)
+*****************************************************.
+///NOTE/// You chose not to add and start DRBL-related services in the DRBL server. Remember to run 'drbl-all-service start' if you want to start DRBL-related services.

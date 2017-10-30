@@ -1,0 +1,1 @@
+/usr/sbin/mknic-nbi -c n

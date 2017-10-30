@@ -1,0 +1,1 @@
+drbl-ocs -g auto -e1 auto -e2 -x -c -r -j2 -srel -sc0 -p reboot --batch --clients-to-wait 1 -l en_US.UTF-8 startdisk multicast_restore directoryname-img sda

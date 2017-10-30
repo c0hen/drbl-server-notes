@@ -1,0 +1,1 @@
+drbl-ocs -b -q2 -j2 -rm-win-swap-hib -gs -scs -p poweroff -z1p -i 10000000000 -l en_US.UTF-8 startdisk save directoryname-img sda

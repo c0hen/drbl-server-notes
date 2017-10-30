@@ -1,0 +1,3 @@
+# edit /etc/drbl/clients-of.....txt
+
+/usr/share/drbl/sbin/drbl-gen-client-files
